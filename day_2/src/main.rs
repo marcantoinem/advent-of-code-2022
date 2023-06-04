@@ -54,7 +54,7 @@ impl MatchResult {
     }
 }
 
-fn score(text: &str) -> usize {
+fn _score(text: &str) -> usize {
     let first_choice = match &text[0..1] {
         "A" => Choice::Rock,
         "B" => Choice::Paper,
